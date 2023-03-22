@@ -1,1 +1,47 @@
-// css
+#intestazione{
+    top: 0px;
+    margin: 0px;
+    left: 0px;
+    min-height: 100px;
+    background-color: white;
+    width: 100%;
+    border-bottom: 3px solid beige;
+}
+#call{
+  border-bottom: 1px solid beige;
+  margin: 0px auto ;
+  width: 70%;
+  font-family: "Helvetica";
+  font-size: 10pt;
+}
+#lodilo{
+  font-family: "Oooh Baby";
+  color: black;
+  margin: -40px auto;
+  text-align: center;
+}
+#lente{
+  margin: 40px 210px;
+}
+#blackstriscia{
+ position: absolute;
+    top: 100px;
+    margin: 0px;
+    left: 0px;
+    min-height: 62px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+}
+p3{
+  margin-left: 210px;
+  text-align: center;
+  font-family: "Helvetica";
+  font-size: 12pt;
+}
+#prf1{
+  width: 1500px;
+  height: 100px;
+  position: relative;
+}
