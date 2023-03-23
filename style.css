@@ -36,12 +36,23 @@
 }
 p3{
   margin-left: 210px;
+  margin-top: 20px;
   text-align: center;
   font-family: "Helvetica";
   font-size: 12pt;
 }
-#prf1{
-  width: 1500px;
-  height: 100px;
-  position: relative;
-}
+.swiper {
+      width: 100%;
+      height: 450px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      margin-top:60px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
