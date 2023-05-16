@@ -1,162 +1,38 @@
-#intestazione{
-    top: 0px;
-    margin: 0px;
-    left: 0px;
-    min-height: 100px;
-    background-color: white;
-    width: 100%;
-    border-bottom: 3px solid tan;
-  z-index: 2;
-  position: fixed;
-}
-#call{
-  border-bottom: 1px solid tan;
-  margin: 0px auto ;
-  width: 70%;
-  font-family: "Helvetica";
-  font-size: 10pt;
-}
-#lodilo{
-  font-family: "Oooh Baby";
-  color: black;
-  margin: -80px auto;
+.container {
+  position: relative;
   text-align: center;
+  color: white;
 }
-#lente{
-  margin: 40px 210px;
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28pt;
 }
-#carrello{
-  float: right;
-  margin-top: 35px;
-  margin-right: 210px;
-  font-size: 20pt;
-  cursor: pointer;
-  outline: 1px black:
+.centered2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-#wish{
+#centred3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28pt;
+}
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 108px;
+  right: auto;
+  left: 500px;
+  font-size: 28pt;
+}
+#login {
   font-size: 12pt;
-}
-#iconac:hover{
-  color: tan;
-}
-#iconac2:hover{
-  color: tan;
-}
-#wish:hover{
-  color: tan; 
-}
-#prezzo{
-  font-size: 12pt;
-}
-#prezzo:hover{
-  color:tan;
-}
-#blackstriscia{
- position: fixed;
-    top: 100px;
-    margin: 0px;
-    left: 0px;
-    min-height: 62px;
-    background-color: black;
-    width: 100%;
-    color: white;
-    margin-bottom: 20px;
-  z-index: 2;
-}
-#men{
-  margin-left: 210px;
-  margin-top: 20px;
-  font-family: "Helvetica";
-  font-size: 12pt;
-  cursor: pointer;
-}
-#men:hover{
-  color: tan;
-}
-.swiper {
-      width: 100%;
-      height: 600px;
-      z-index: -1;
-    }
-
-    .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      margin-top:60px;
-      z-index: -1;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      z-index: -1;
-    }
-.dueim1{
-  margin: 35px auto auto 250px;
-  width: 405px;
-}
-.dueim2{
-  width: 405px;
-  height: 530px;
-  margin: 35px auto auto 80px;
-}
-#shop1{  
-  margin: -12px auto 0px 150px; 
-  width: 54.9%;
-  height: 15%;
-  color: #dedede; 
-  background: #222;
-  position: relative;
-  opacity: 0.8;
-  left: 100px; 
-  bottom: 100px;
-  font-family:"Poppins";
-  font-size: 16pt;
-  cursor: pointer;
-text-align: left;
-}
-#shop2{
-  margin: 2px auto auto 30px;
-  width: 54.9%;
-  height: 15%;
-  color: #dedede; 
-  background: #222;
-  position: relative;
-  opacity: 0.8;
-  left: 65.9px; 
-  bottom: 120px;
-  font-family:"Poppins";
-  font-size: 16pt;
-  cursor: pointer;
-  outline: none;
-text-align: left;
-text-decoration: none;
-}
-#shop1:hover {
-  color: #222;
-  background-color: lightgrey;
-}
-#shop2:hover {
-  color: #222;
-  background-color: lightgrey;
-}
-#linea1{
-  border-bottom: 2px solid beige;
-  width: 68%;
-  margin: -140px auto auto auto;
-}
-.card-body{
-  height:100px;
-}
-.card-img-top{
-  background-position: center;
-      background-size: cover;
-}
-#fondo{
-  bottom: 0px;
-  z-index:1;
-}
-#sotto{
-  margin-top: 150px;
-  z-index: 1;
+  bottom: 150px;
 }
